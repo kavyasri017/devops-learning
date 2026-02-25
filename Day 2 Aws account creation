@@ -1,0 +1,148 @@
+
+
+# ☁️ AWS Free Account Creation Guide
+
+## 📌 Introduction
+
+This document explains the step-by-step process to create a Free Tier account in **Amazon Web Services** for DevOps practice.
+
+---
+
+## 🎯 Why Choose AWS Free Tier?
+
+* Up to $200 credits (limited period)
+* Access to popular services like:
+
+  * EC2 (Virtual Server)
+  * S3 (Storage)
+  * IAM (User Management)
+* Suitable for beginners and practice
+
+---
+
+# 📝 Step-by-Step AWS Account Creation
+
+## Step 1: Go to AWS Website
+
+1. Open browser
+2. Visit: [https://aws.amazon.com](https://aws.amazon.com)
+3. Click **Sign Up** (Top right corner)
+
+---
+
+## Step 2: Enter Account Details
+
+1. Enter Email Address
+2. Enter Account Name
+3. Click **Verify email address**
+4. Enter OTP received in email
+
+---
+
+## Step 3: Create Root User Password
+
+1. Set strong password
+2. Confirm password
+3. Click Continue
+
+---
+
+## Step 4: Choose Account Type
+
+* Select: **Personal**
+* Fill:
+
+  * Full Name
+  * Phone Number
+  * Address
+  * City / Country
+* Click Continue
+
+---
+
+## Step 5: Add Payment Information
+
+⚠️ Debit/Credit card is required (for verification only)
+
+* Enter Card details
+* Billing address
+* Click Verify and Continue
+
+💡 AWS may charge a small temporary amount for verification. It will be refunded.
+
+---
+
+## Step 6: Phone Verification
+
+1. Enter phone number
+2. Choose SMS / Call
+3. Enter OTP
+4. Click Continue
+
+---
+
+## Step 7: Choose Support Plan
+
+Select:
+
+✅ **Basic Support – Free**
+
+Then click Complete Sign Up
+
+---
+
+# ⏳ Wait for Activation
+
+* Account activation takes 5–15 minutes
+* You will receive confirmation email
+
+After activation:
+Click **Sign in to Console**
+
+---
+
+# 🔐 Important After Login (Very Important)
+
+## 1️⃣ Enable Billing Alerts
+
+* Go to Billing Dashboard
+* Create Budget Alert
+* Set limit (Example: $5)
+* Add your email for alert
+
+## 2️⃣ Don’t Use Unnecessary Services
+
+Only practice:
+
+* EC2
+* S3
+* IAM
+
+## 3️⃣ Stop EC2 Instance After Practice
+
+Always:
+
+* Stop or Terminate EC2
+* Delete unused resources
+
+---
+
+# 🚀 Services You Can Practice
+
+* Create EC2 Linux Server
+* Install Docker
+* Deploy sample application
+* Practice IAM roles
+* Upload files to S3
+
+---
+
+# 🎯 Conclusion
+
+AWS Free Tier is best for DevOps beginners to practice cloud concepts without high cost.
+
+Always monitor billing and use resources carefully.
+
+---
+
+
