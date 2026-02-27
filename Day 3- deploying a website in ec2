@@ -1,0 +1,74 @@
+Install Apache Server on an EC2 Instance
+Steps:
+Update the package repository
+
+bash
+sudo apt update
+Install Apache
+
+bash
+sudo apt install apache2 -y
+Enable Apache to start on boot
+
+bash
+sudo systemctl enable apache2
+Start Apache service
+
+bashExtract the ZIP file
+
+bash
+unzip your-website.zip
+Copy extracted files to Apache’s root directory
+
+bash
+sudo cp -r your-website/* /var/www/html/
+Set correct permissions
+
+bash
+sudo chown -R www-data:www-data /var/www/html/
+sudo chmod -R 755 /var/www/html/
+sudo systemctl start apache2
+Check Apache status
+
+bash
+sudo systemctl status apache2
+Verify installation
+Open a browser and go to your EC2 public IP:
+http://<your-ec2-public-ip>
+
+
+
+Download your website files (ZIP)
+
+bash
+wget http://example.com/your-website.zip
+Install unzip (if not already installed)
+
+bash
+sudo apt install unzip -y
+
+Extract the ZIP file
+
+bash
+unzip your-website.zip
+Copy extracted files to Apache’s root directory
+
+bash
+sudo cp -r your-website/* /var/www/html/
+Set correct permissions
+
+bash
+sudo chown -R www-data:www-data /var/www/html/
+sudo chmod -R 755 /var/www/html/
+
+Allow HTTP/HTTPS traffic in EC2 Security Group
+
+Go to AWS EC2 console → Security Groups → Inbound rules
+
+Add rules for:
+
+HTTP (port 80)
+
+HTTPS (port 443)
+
+
