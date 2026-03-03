@@ -1,1 +1,64 @@
 
+Sure 👍 Here is a **short and simple English version** for quick revision:
+
+---
+
+# 🌐 Network Architecture – Short Notes
+
+## 1️⃣ Server
+
+* A server provides services to clients.
+* Example IP: **192.168.0.100**
+* Runs **Nginx / HTTPD** (Web Server).
+* Uses ports:
+
+  * 80 → HTTP
+  * 443 → HTTPS
+  * 8080 → Custom port
+
+---
+
+## 2️⃣ Developer
+
+* Develops and deploys applications.
+* Configures the web server.
+* Connects domain name to server.
+* Tests using:
+
+  * `http://192.168.0.100`
+  * `http://192.168.0.100:8080`
+
+---
+
+## 3️⃣ Firewall
+
+* Protects the network from unauthorized access.
+* Separates **LAN** and **WAN**.
+* Allows only required ports (80, 443).
+* Uses **NAT** to forward public traffic to private server.
+
+Example:
+Public IP → 157.24.42.56
+Private IP → 192.168.0.100
+
+---
+
+## 4️⃣ Client
+
+* User system that accesses the server.
+* Example IPs: 192.168.0.11–15
+* Sends request and receives response.
+
+---
+
+# 🔄 How It Works
+
+1. Client enters domain name.
+2. DNS converts domain → Public IP.
+3. Request reaches Firewall.
+4. Firewall forwards to internal server.
+5. Server sends response back to client.
+
+---
+
+If you want, I can also make it into a **very short 5-mark exam answer format**.
