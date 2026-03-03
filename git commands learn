@@ -1,1 +1,33 @@
-
+what is git clone
+ After cloning a repository, what is the default name of the remote? origin
+git status shows current status
+git branch
+git checkout branchname
+HEAD Represent in git -- pointer to the current branch and commit your working on
+view all available branches including remote branches -git remote -v
+initializing new repo - git init
+.git - stores all git metada and object
+git commit -m 'message'
+atomic - single logic chnage
+commit count -- git rev-list--count HEAD
+Discard chnges - git restore file name 
+If you've staged a file with 'git add' but want to unstage it (without losing changes), which command should you use?
+git restore --staged filename
+git restore filename
+stash temporiratly saving giled tht is unchanged files
+retrives and applies most recent -git stash pop
+git stash list
+stash yur chnages - git stash pop
+git checkout main
+git chekout feature
+git stash apply -- restore the stashed changes
+git diff chnges soldrathu in current wd 
+git log --oneline to check 
+view unchanged -git diff
+view staged i git log
+remote -- version of the repo in remote server
+git push
+git remote add name  url
+git push origin main
+.gitignore - file should not track
+commit which should be ignored -  how to reverse --git rm --cached file
