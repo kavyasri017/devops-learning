@@ -3,6 +3,10 @@ what is git clone
 git status shows current status
 git branch
 git checkout branchname
+git checkout -b branchname( shwich panum at the same time create panum)
+delete -- git branch -d branchname
+git branch -a
+rename -git branch -m branchname
 HEAD Represent in git -- pointer to the current branch and commit your working on
 view all available branches including remote branches -git remote -v
 initializing new repo - git init
@@ -26,8 +30,18 @@ git log --oneline to check
 view unchanged -git diff
 view staged i git log
 remote -- version of the repo in remote server
+merge
+
 git push
 git remote add name  url
 git push origin main
 .gitignore - file should not track
 commit which should be ignored -  how to reverse --git rm --cached file
+
+
+merge
+create branch
+create file and commit
+into main --- checkout to main
+and merge
+git merge feature
